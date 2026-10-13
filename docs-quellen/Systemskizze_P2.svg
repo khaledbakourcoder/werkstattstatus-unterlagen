@@ -1,0 +1,104 @@
+<svg viewBox="0 0 960 610" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="960" height="610" fill="#ffffff"/>
+
+  <!-- Pfeile (hinter den Beschriftungen) -->
+  <g stroke="#475569" stroke-width="2" fill="none" marker-end="url(#a)">
+    <line x1="200" y1="202" x2="200" y2="252"/>
+    <line x1="591" y1="202" x2="591" y2="252"/>
+    <line x1="200" y1="316" x2="200" y2="364"/>
+    <line x1="591" y1="316" x2="591" y2="364"/>
+    <line x1="250" y1="432" x2="250" y2="480"/>
+    <line x1="805" y1="432" x2="790" y2="480"/>
+  </g>
+
+  <text x="480" y="32" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">WerkstattStatus – Systemstruktur (Skizze, P2)</text>
+
+  <!-- 1 ROLLEN -->
+  <text x="40" y="62" font-size="13" font-weight="700" fill="#64748b" stroke="#ffffff" stroke-width="6" paint-order="stroke">1  ROLLEN UND RECHTE</text>
+
+  <rect x="40" y="72" width="210" height="130" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="145" y="98" text-anchor="middle" font-size="15" font-weight="700" fill="#1e3a8a">Kunde</text>
+  <text x="145" y="115" text-anchor="middle" font-size="11" fill="#1e3a8a">Smartphone, Link / PWA</text>
+  <text x="52" y="139" font-size="12" fill="#1e3a8a">• eigenen Status sehen</text>
+  <text x="52" y="157" font-size="12" fill="#1e3a8a">• Zusatzarbeit freigeben/ablehnen</text>
+  <text x="52" y="175" font-size="12" fill="#1e3a8a">• Dokumente, eigene Historie</text>
+  <text x="52" y="193" font-size="12" fill="#b91c1c">✗ keine Sicht auf andere Kunden</text>
+
+  <rect x="263" y="72" width="210" height="130" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="368" y="98" text-anchor="middle" font-size="15" font-weight="700" fill="#14532d">Serviceberater</text>
+  <text x="368" y="115" text-anchor="middle" font-size="11" fill="#14532d">Direktannahme, Kundenkontakt</text>
+  <text x="275" y="139" font-size="12" fill="#14532d">• Auftrag, Kunde, Fahrzeug anlegen</text>
+  <text x="275" y="157" font-size="12" fill="#14532d">• Kostenvoranschlag erstellen</text>
+  <text x="275" y="175" font-size="12" fill="#14532d">• Freigabe anfordern</text>
+  <text x="275" y="193" font-size="12" fill="#14532d">• Vorschäden fotografieren</text>
+
+  <rect x="486" y="72" width="210" height="130" rx="10" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="591" y="98" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">Mechaniker</text>
+  <text x="591" y="115" text-anchor="middle" font-size="11" fill="#134e4a">eingeschränkter Zugriff</text>
+  <text x="498" y="139" font-size="12" fill="#134e4a">• eigene Aufträge sehen</text>
+  <text x="498" y="157" font-size="12" fill="#134e4a">• Status per Klick setzen</text>
+  <text x="498" y="175" font-size="12" fill="#134e4a">• Arbeitsschritte abhaken, Diagnose</text>
+  <text x="498" y="193" font-size="12" fill="#b91c1c">✗ keine Kosten, keine Freigabe</text>
+
+  <rect x="709" y="72" width="210" height="130" rx="10" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+  <text x="814" y="98" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">Administrator</text>
+  <text x="814" y="115" text-anchor="middle" font-size="11" fill="#0f172a">Werkstattleitung</text>
+  <text x="721" y="139" font-size="12" fill="#0f172a">• Benutzer und Rollen verwalten</text>
+  <text x="721" y="157" font-size="12" fill="#0f172a">• alle Aufträge einsehen</text>
+  <text x="721" y="175" font-size="12" fill="#0f172a">• Einstellungen (Statusstufen)</text>
+  <text x="721" y="193" font-size="12" fill="#0f172a">• Rechte des Serviceberaters</text>
+
+  <!-- 2 FRONTEND -->
+  <text x="40" y="244" font-size="13" font-weight="700" fill="#64748b" stroke="#ffffff" stroke-width="6" paint-order="stroke">2  FRONTEND</text>
+  <text x="207" y="232" font-size="11" fill="#475569" stroke="#ffffff" stroke-width="4" paint-order="stroke">HTTPS</text>
+  <text x="598" y="232" font-size="11" fill="#475569" stroke="#ffffff" stroke-width="4" paint-order="stroke">HTTPS</text>
+  <rect x="40" y="254" width="210" height="62" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="145" y="281" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">Kundenansicht</text>
+  <text x="145" y="299" text-anchor="middle" font-size="11" fill="#334155">Next.js, PWA, mobil</text>
+  <rect x="263" y="254" width="656" height="62" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="591" y="281" text-anchor="middle" font-size="14" font-weight="700" fill="#14532d">Werkstattansicht</text>
+  <text x="591" y="299" text-anchor="middle" font-size="11" fill="#334155">Next.js + TypeScript · Menü und Funktionen je nach Rolle</text>
+
+  <!-- 3 FACHLOGIK -->
+  <text x="40" y="356" font-size="13" font-weight="700" fill="#64748b" stroke="#ffffff" stroke-width="6" paint-order="stroke">3  FACHLOGIK</text>
+  <text x="920" y="356" text-anchor="end" font-size="11" fill="#64748b">Next.js Server Actions, keine eigene REST-API</text>
+  <rect x="40" y="366" width="205" height="66" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+  <text x="142" y="392" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Statusworkflow</text>
+  <text x="142" y="410" text-anchor="middle" font-size="11" fill="#334155">vorgegebene Stufen</text>
+  <rect x="257" y="366" width="205" height="66" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+  <text x="359" y="392" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Freigabe</text>
+  <text x="359" y="410" text-anchor="middle" font-size="11" fill="#334155">Kostenvoranschlag, Ablehnung</text>
+  <text x="359" y="424" text-anchor="middle" font-size="11" fill="#334155">Protokoll: wer, wann, Betrag</text>
+  <rect x="474" y="366" width="205" height="66" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+  <text x="576" y="392" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Historie</text>
+  <text x="576" y="410" text-anchor="middle" font-size="11" fill="#334155">Fahrzeug und Reparaturen</text>
+  <rect x="691" y="366" width="229" height="66" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.5"/>
+  <text x="805" y="392" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Benachrichtigung</text>
+  <text x="805" y="410" text-anchor="middle" font-size="11" fill="#334155">abholbereit, Freigabe nötig</text>
+
+  <!-- 4 BACKEND + EXTERN -->
+  <text x="40" y="472" font-size="13" font-weight="700" fill="#64748b" stroke="#ffffff" stroke-width="6" paint-order="stroke">4  BACKEND (Supabase)</text>
+  <rect x="40" y="482" width="560" height="104" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <rect x="56" y="498" width="165" height="72" rx="8" fill="#ffffff" stroke="#d97706"/>
+  <text x="138" y="522" text-anchor="middle" font-size="14" font-weight="700" fill="#78350f">Auth</text>
+  <text x="138" y="541" text-anchor="middle" font-size="11" fill="#334155">Login, Rollen</text>
+  <text x="138" y="556" text-anchor="middle" font-size="11" fill="#334155">Kunde: E-Mail-Link</text>
+  <rect x="233" y="498" width="165" height="72" rx="8" fill="#ffffff" stroke="#d97706"/>
+  <text x="315" y="522" text-anchor="middle" font-size="14" font-weight="700" fill="#78350f">Datenbank</text>
+  <text x="315" y="541" text-anchor="middle" font-size="11" fill="#334155">Rechte per Row Level</text>
+  <text x="315" y="556" text-anchor="middle" font-size="11" fill="#334155">Security (führend)</text>
+  <rect x="410" y="498" width="176" height="72" rx="8" fill="#ffffff" stroke="#d97706"/>
+  <text x="498" y="522" text-anchor="middle" font-size="14" font-weight="700" fill="#78350f">Storage</text>
+  <text x="498" y="541" text-anchor="middle" font-size="11" fill="#334155">Fotos (privat),</text>
+  <text x="498" y="556" text-anchor="middle" font-size="11" fill="#334155">Kostenvoranschläge</text>
+
+  <text x="640" y="472" font-size="13" font-weight="700" fill="#64748b" stroke="#ffffff" stroke-width="6" paint-order="stroke">EXTERN</text>
+  <rect x="640" y="482" width="280" height="104" rx="10" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="780" y="528" text-anchor="middle" font-size="14" font-weight="700" fill="#831843">E-Mail-Dienst</text>
+  <text x="780" y="548" text-anchor="middle" font-size="11" fill="#334155">Versand der Benachrichtigungen</text>
+</svg>
